@@ -1,0 +1,12 @@
+html{
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  margin: 0;
+  min-height: 100vh;
+  /* grid-template-rows: 190px 5rem auto 30%; */
+  /* grid-auto-rows: 14.29%; */
+  grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 3fr;
+}
